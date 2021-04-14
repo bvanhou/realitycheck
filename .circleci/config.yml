@@ -64,7 +64,6 @@ jobs:
 
   # vm jobs
   machine:
-    machine: true
     image: 'customImage'
     steps:
       - run:
