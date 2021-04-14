@@ -65,6 +65,7 @@ jobs:
   # vm jobs
   machine:
     machine: true
+    image: 'customImage
     steps:
       - run:
           <<: *basic_docker_build
